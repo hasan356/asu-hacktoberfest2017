@@ -55,3 +55,12 @@ try:
         print "Bucket Sort incorrect"
 except:
     print "Bucketsort function errored or is incomplete"
+
+try:
+    from selection import selection
+    if(selection(list(nums)) == sortedNums):
+        print "selectionsort success!"
+    else:
+        print "selectionsort incorrect."
+except:
+    print "selectionsort function errored or is incomplete."
